@@ -2,4 +2,4 @@
 
 ## Usage:
 1. `podman build -t search_arxiv_docker .`
-2. `podman run -p 7860:7860 search_arxiv_docker`
+2. `podman run -d -p 7860:7860 search_arxiv_docker`
